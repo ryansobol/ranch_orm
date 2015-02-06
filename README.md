@@ -10,6 +10,17 @@ brew install sqlite
 mkdir ranch_orm
 cd ranch_orm
 touch Gemfile
+```
+
+```
+source 'https://rubygems.org'
+
+gem 'activerecord', require: 'active_record'
+gem 'sqlite3'
+gem 'rake'
+```
+
+```
 bundle install --path vendor/bundle
 ```
 
