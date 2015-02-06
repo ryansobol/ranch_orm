@@ -6,5 +6,11 @@ class CreateHorses < ActiveRecord::Migration
       t.references :barn
       t.references :pasture
     end
+
+    socks = Horse.new(name: 'Socks', rank: 10)
+    socks.save!
+
+    slippers = Horse.new(name: 'Slippers')
+    slippers.save!
   end
 end
