@@ -9,6 +9,7 @@ To install dependencies:
 brew install sqlite
 mkdir ranch_orm
 cd ranch_orm
+touch Gemfile
 bundle install --path vendor/bundle
 ```
 
